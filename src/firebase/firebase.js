@@ -9,7 +9,7 @@ projectId: process.env.FIREBASE_PROJECT_ID,
 storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
 messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
 };
-console.log(config.databaseURL);
+//console.log(config.databaseURL);
 firebase.initializeApp(config);
 
 const database = firebase.database();
